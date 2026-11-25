@@ -89,7 +89,7 @@ Log runtime trên Railway (dòng `startup`): `environment="production" port=8080
 
 ## Screenshots
 
-- [Deployment dashboard](screenshots/dashboard.png): canvas project trên Railway (agent + Redis)
+- [Deployment dashboard](screenshots/dashboard.png): canvas project `day14-production-agent` trên Railway (agent Online → Redis Online + volume), panel Metrics của agent (8 request: 6×2xx, 2×4xx từ lần tự kiểm)
 - [Service running](screenshots/running.png): `railway service list` (agent và Redis ● Online) + log runtime JSON của agent
 - [Test results](screenshots/test.png): 4 lệnh tự kiểm ra 200 / 200 / 401 / 200 + script chấm `--public-url`
 
